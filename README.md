@@ -10,9 +10,9 @@ scalability, maintainability, and controlled admin access.
 
 # 🧠 Architecture Overview
 
-jasonfunbot → Core bot controller
-flights → Flight schedule tracking module
-bully → Humour & group interaction module
+jasonfunbot → Core bot controller/
+flights → Flight schedule tracking module/
+bully → Humour & group interaction module/
 stories → AI-driven interaction module (future expansion)
 
 The main bot listens for commands and routes them to the relevant
