@@ -1,0 +1,5 @@
+# Ignore .env file
+.env
+messagelogs
+env
+flights-pdf
