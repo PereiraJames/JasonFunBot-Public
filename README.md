@@ -28,14 +28,14 @@ The Flights module helps track my girlfriend's flight schedule.
 
 ## How It Works
 
-1.  Upload flight roster in PDF format\
-2.  Jason extracts duty and flight data\
-3.  Data is stored in a database\
+1.  Upload flight roster in PDF format
+2.  Jason extracts duty and flight data
+3.  Data is stored in a database
 4.  Flights can be retrieved on demand
 
 ## Commands
 
-- /currentflight → Displays current active flight\
+- /currentflight → Displays current active flight
 - /nextflight → Displays next two upcoming flights
 
 ## Requirements
@@ -53,30 +53,30 @@ friends.
 
 ## Features
 
-- Adjustable bullying tolerance\
-- Separate master compliment tolerance\
+- Adjustable bullying tolerance
+- Separate master compliment tolerance
 - Enable/disable control
 
 ## Commands
 
-- /bullystatus\
-- /bullyenable (Master only)\
-- /bullydisable (Master only)\
-- /bullytolerance → 0 = no bullying\
+- /bullystatus
+- /bullyenable (Master only)
+- /bullydisable (Master only)
+- /bullytolerance → 0 = no bullying
 - /masterbullytolerance → 0 = no compliments
 
 ## Tolerance Settings
 
-- BULLYTOLERANCE → Controls teasing intensity\
+- BULLYTOLERANCE → Controls teasing intensity
 - MASTER_BULLYTOLERANCE → Controls compliment level for Master
 
 ---
 
 # 🗂 Message Logging & AI Training
 
-JasonFunBot stores messages for: - Record keeping\
+JasonFunBot stores messages for: - Record keeping
 
-- Conversation analysis\
+- Conversation analysis
 - AI training experiments
 
 Data supports contextual response improvements and future AI projects.
@@ -88,7 +88,7 @@ Data supports contextual response improvements and future AI projects.
 Certain commands are restricted to the Master account using Telegram
 filters.
 
-Master-only commands include: - Bully configuration\
+Master-only commands include: - Bully configuration
 
 - Flight tracking commands
 
@@ -98,10 +98,10 @@ Master-only commands include: - Bully configuration\
 
 Copy `.env.example` to `.env` and configure required values:
 
-Core required: - BOT_TOKEN\
+Core required: - BOT_TOKEN
 
-- BOT_USERNAME\
-- TELE_MASTERNAME\
+- BOT_USERNAME
+- TELE_MASTERNAME
 - TELE_MASTERID
 
 Optional modules require additional configuration.
@@ -120,7 +120,7 @@ Production deployment via Docker or systemd is recommended.
 
 # 📌 Design Philosophy
 
-- Modular design\
-- Environment-driven feature toggling\
-- Clean separation of concerns\
+- Modular design
+- Environment-driven feature toggling
+- Clean separation of concerns
 - Built for scalability
